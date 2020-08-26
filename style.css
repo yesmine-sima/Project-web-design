@@ -1,0 +1,70 @@
+body,p,span{
+    font-family:'Roboto', sans-serif;
+}
+h1,h2,h3,h5,a{
+    font-family: 'Rubik',sans-serif;
+}
+.my-manu{}
+    .my-manu li{
+
+    }
+    /*global*/
+    .btn-primary{
+        background-color: #e73a3e;
+        border-color:#e73a3e ;
+        padding: 10px 30px;
+        font-size: 16px;
+        position: relative;
+        z-index: 1;
+    }
+    .btn-primary:hover{
+        background-color: #111;
+
+    }
+    .btn-primary::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0%;
+        height: 100%;
+        background-color: black;
+        border-color:#111 ;
+        z-index: -1;
+        transition: .5s ;
+    }
+    .btn-primary:hover::after{
+        width: 100%;
+    }
+    .my-manu li a{
+        text-decoration: none;
+        padding: 10px 20px;
+        color:black;
+        font-weight: 500;
+
+    }
+    .nav-header{
+
+    }
+    .nav-search{
+        width: 60px;
+        font-size: 20px;
+        text-align:center;
+        border-right:1px solid #ddd;
+        margin-right:20px;
+    }
+    .nav-phone{
+        width: 200px;
+    }
+    .phone-icon{
+        font-size: 32px;
+        color: red;
+        
+    }
+    .nav-call-span{
+        color: #666666;
+    }
+.nav-call-a{
+    text-decoration:none ;
+
+}
